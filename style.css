@@ -207,3 +207,69 @@ h2{
     margin-top: 8px;
     vertical-align: middle;
   }
+
+  @media screen and (min-width:767px) and (max-width:1023px) {
+
+    #para2{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #sym1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #para3{
+        margin-right: 15px;
+    }
+
+    #sym2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #para4{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    #para5{
+        margin-right: 20px;
+    }
+
+    #h{ 
+        font-size: 41px;
+        padding-top: 10px;;
+    }
+
+    #para6{
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+
+    #tot{
+        margin: 20px 100px ;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+
+    h2{
+        margin-left: 220px;
+    }
+
+    #h{
+        font-size: 41px;
+        padding-right: -20px;
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+
+    #tot{
+        width: 600px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+  }
