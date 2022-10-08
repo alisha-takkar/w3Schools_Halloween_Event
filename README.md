@@ -8,6 +8,11 @@
 - Make an open source project.
 - Get more comfortable in using GitHub.
 
+<h5 align="center">Languages used</h5>
+
+- HTML 5
+- CSS 3
+
 <h4 align="center">Setup</h4>
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join).
