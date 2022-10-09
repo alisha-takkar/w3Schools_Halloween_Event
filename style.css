@@ -208,6 +208,11 @@ h2{
     vertical-align: middle;
   }
 
+  /* Adding media queries */
+
+  /*  For Tablet */
+
+
   @media screen and (min-width:767px) and (max-width:1023px) {
 
     #para2{
@@ -252,6 +257,8 @@ h2{
         margin: 20px 100px ;
     }
   }
+
+  /* For Smartphone */
 
   @media screen and (max-width: 767px) {
 
