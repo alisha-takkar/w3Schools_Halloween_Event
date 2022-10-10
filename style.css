@@ -164,9 +164,16 @@ h2{
     background-color: yellow;
 }
 
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #h{
-    font-size: 60px;
+    font-size: 50px;
     color: black;
+    padding-top: 10px;
 }
 
 #para6{
@@ -175,9 +182,10 @@ h2{
 }
 
 #tot{
-    margin-left: 380px;
-    margin-right: 380px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Section: Costumes */
@@ -244,17 +252,12 @@ h2{
     }
 
     #h{ 
-        font-size: 41px;
-        padding-top: 10px;;
+        font-size: 30px;
     }
 
     #para6{
         margin-left: 20px;
         margin-right: 30px;
-    }
-
-    #tot{
-        margin: 20px 100px ;
     }
   }
 
@@ -266,17 +269,7 @@ h2{
         margin-left: 220px;
     }
 
-    #h{
-        font-size: 41px;
-        padding-right: -20px;
-        margin-left: 220px;
-        margin-right: 220px;
-    }
-
-    #tot{
-        width: 600px;
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-    
+   #h{
+        font-size: 30px;
+    }    
   }
