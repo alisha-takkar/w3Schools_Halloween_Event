@@ -15,6 +15,10 @@
 
 <h4 align="center">Setup</h4>
 
+The website is published here :- https://alisha-takkar.github.io/w3Schools_Halloween_Event/
+
+<h6 align="center">Or</h6>
+
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join).
 2. Fork this repository. You now have a complete copy of the project in your own account.
 3. Clone the repository. That is a copy of the project saved on your own machine.
