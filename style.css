@@ -31,7 +31,7 @@ img{
 
 #navbar{
     background: black;
-    height: 79px;
+    height: 5.2%;
 
 }
 
@@ -48,23 +48,27 @@ img{
     display: inline;
 }
 /*Navigation Bar: List Styling */
+
+#nav{
+    float: right;
+}
+
 #navbar ul{
-    display: flex;
     font-family: 'Bershire Swash';
     margin-left: 25%;
 }
 
 #navbar ul li{
     list-style: none;
-    font-size: 1.3rem;
+    display: inline-block;
 }
 
 #navbar ul li a{
     color: white;
-    display: block;
-   padding : 3px 22px;
    border-radius: 20px;
    text-decoration: none;
+   padding-left: 22px;
+   font-size: 29px;
 }
 
 #navbar ul li a:hover{
@@ -105,7 +109,7 @@ h1{
     font-size: 20px;
     color: white;
     width: 100%;
-    padding: 20px;
+    padding: 1.317%;
 }
 
 /* Section: Symbols */
@@ -134,29 +138,29 @@ h2{
 
 #sym1{
     float: left;
-    padding: 20px;
+    padding: 1.317%;
 }
 
 #para3{
     color: white;
     font-size: 25px;
-    margin-top: 60px;
+    margin-top: 3.95%;
 }
 
 .s{
     float: left;
-    padding: 20px;
-    width: 315px;
+    padding: 1.317%;
+    width: 20.74%;
 }
 
 .p{
     color: white;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 1.975%;
 }
 
 #para5{
-    padding-top: 27px;
+    padding-top: 1.775%;
 }
 
 /* Section: Trick-or-Treat */
@@ -173,7 +177,7 @@ h2{
 #h{
     font-size: 50px;
     color: black;
-    padding-top: 10px;
+    padding-top: 0.66%;
 }
 
 #para6{
@@ -182,7 +186,7 @@ h2{
 }
 
 #tot{
-    margin-top: 20px;
+    margin-top: 1.317%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,22 +207,109 @@ h2{
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 0.263%;
   }
   
 .column {
     flex: 25%;
-    padding: 0 4px;
+    padding: 0 0.263%;
   }
   
 .column img {
-    margin-top: 8px;
+    margin-top: 0.526%;
     vertical-align: middle;
   }
 
-  /* Adding media queries */
+  /**************** Adding media queries **************/
 
-  /*  For Tablet */
+  /********* Mobile ************/
+
+  @media only screen and (min-width: 320px) and (max-width: 426px){
+    #navbar ul li a{
+        font-size: 23px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #para1{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .ap, #para2{
+        font-size: 15px;
+    }
+
+    #para3{
+        font-size: 10px;
+    }
+
+    #sym1{
+        width: 70px;
+        height: 70px;
+    }
+
+    .p{
+        font-size: 10px;
+    }
+
+    #h{
+        font-size: 20px;
+    }
+
+    #para6{
+        font-size: 15px;
+    }
+    
+    #tot{
+        display: none;
+    }
+
+    #h1{
+        font-size: 40px;
+    }
+  }
+
+  @media only screen and(min-width: 540px){
+    #navbar ul li a{
+        font-size: 30px;
+    }
+  }
+
+  @media only screen and (min-width: 425px){
+    #navbar ul li a{
+        font-size: 29px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    #para1{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    .ap, #para2{
+        font-size: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    #navbar ul li a{
+        font-size: 25px;
+    }
+  }
+
+  /********** For Tablet ***********/
 
 
   @media screen and (min-width:767px) and (max-width:1023px) {
@@ -261,7 +352,7 @@ h2{
     }
   }
 
-  /* For Smartphone */
+  /************** For Smartphone ***********/
 
   @media screen and (max-width: 767px) {
 
